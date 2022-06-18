@@ -1,0 +1,46 @@
+#image {
+  border: 5px solid red;
+  width: 40%;
+
+  display: inline;
+
+  margin: 10px;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  border: 2px solid red;
+  height: 80vh;
+}
+#pred {
+  min-width: 40%;
+  max-width: 100%;
+  height: 40vh;
+}
+#predictions div {
+  margin: 0;
+  max-height: 2em;
+}
+#predictions div div {
+  display: inline;
+  height: 10px;
+  border-left: 1px rgb(11, 255, 11) solid;
+}
+#predictions div div span {
+  height: 10px;
+  background-color: black;
+  display: inline-block;
+  transition: all 0.5s ease-out;
+  border-radius: 10px;
+}
+#predictions div p {
+  display: inline-block;
+}
+#predictions div > p {
+  width: 5em;
+}
+#predictions div :nth-child(2) {
+  width: 2em;
+}

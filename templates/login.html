@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Login </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+          </head>
+   
+<body>
+	<div class="container">
+		<form action="{{ url_for('login') }}" method="post"class="login-email">
+			<p class="login-text" style="font-size: 2rem; font-weight: 800;">Login</p>
+            <div class="msg">{{ msg }}</div>
+			<div class="input-group">
+				<input id="username" name="username" type="text" placeholder="Enter Your Username" >
+			</div>
+			<div class="input-group">
+				<input id="password" name="password" type="password" placeholder="Enter Your Password">
+			</div>
+			<div class="input-group">
+				 <input type="submit" class="btn" value="Sign In">
+			</div>
+			<p class="login-register-text">Don't have an account? <a class="bottom" href="{{url_for('register')}}">Register Here</a>.</p>
+		</form>
+	</div>
+</body>
+</html>
