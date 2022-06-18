@@ -1,0 +1,15 @@
+const EMOTIONS = [
+  "angry",
+  "confident",
+  "confused",
+  "contempt",
+  "crying",
+  "disgust",
+  "fear",
+  "happy",
+  "neutral",
+  "sad",
+  "shy",
+  "sleepy",
+  "surprised",
+];
