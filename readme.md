@@ -65,8 +65,6 @@ or Run
 
 
 
-![Mr bean](https://github.com/Nithin1506200/EmotionDetection/blob/main/mrbean.png)
-
 ## Models
 Models can be found in the `Models\grayscalemodel_1_new.hdf5` which is built using dcnn.
 
