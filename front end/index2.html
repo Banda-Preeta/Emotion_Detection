@@ -1,0 +1,85 @@
+{% extends 'base.html'%} {% block content %}
+<div id="container">
+  <img id="image" src="{{ url_for('video') }}" alt="" />
+  <div id="pred">
+    <h1>Results</h1>
+    <div id="predictions">
+      <div>
+        <p>angry</p>
+        <p></p>
+        <div>
+          <span></span>
+        </div>
+      </div>
+      <div>
+        <p>confident</p>
+        <p></p>
+        <div>
+          <span></span>
+        </div>
+      </div>
+      <div>
+        <p>confused</p>
+        <p></p>
+        <div>
+          <span></span>
+        </div>
+      </div>
+      <div>
+        <p>contempt</p>
+        <p></p>
+        <div>
+          <span></span>
+        </div>
+      </div>
+      <div>
+        <p>crying</p>
+        <p></p>
+        <div><span></span></div>
+      </div>
+      <div>
+        <p>disgust</p>
+        <p></p>
+        <div><span></span></div>
+      </div>
+      <div>
+        <p>fear</p>
+        <p></p>
+        <div><span></span></div>
+      </div>
+      <div>
+        <p>happy</p>
+        <p></p>
+        <div><span></span></div>
+      </div>
+      <div>
+        <p>neutral</p>
+        <p></p>
+        <div><span></span></div>
+      </div>
+      <div>
+        <p>sad</p>
+        <p></p>
+        <div><span></span></div>
+      </div>
+      <div>
+        <p>shy</p>
+        <p></p>
+        <div><span></span></div>
+      </div>
+      <div>
+        <p>sleepy</p>
+        <p></p>
+        <div><span></span></div>
+      </div>
+      <div>
+        <p>surprised</p>
+        <p></p>
+        <div><span></span></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="{{url_for('static',filename='js/index.js')}}"></script>
+{% endblock %}
+ 
